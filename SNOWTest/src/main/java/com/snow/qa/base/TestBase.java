@@ -12,7 +12,7 @@ public class TestBase {
 	static WebDriver driver;
 	static Properties prop;
 	
-	public TestBase(){
+	public TestBase() {
 		try {
 			prop = new Properties();
 			FileInputStream fp = new FileInputStream("/Users/suparna/Desktop/eclipse/workspace/SNOWTest/src/main/java/com/snow/qa/config/config.properties");
