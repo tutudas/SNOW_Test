@@ -23,12 +23,12 @@ public class TestBase {
 			e.printStackTrace();
 		}
 		
-		private void init(){
-			String browserName = prop.getProperty("Browser");
-			if(browserName.equals("chrome")){
-				System.setProperty("WebDriver.chrome.driver", "/Users/suparna/Desktop/eclipse/workspace/SNOWTest/chromedriver");
-			}
-		}
+//		private void init(){
+//			String browserName = prop.getProperty("Browser");
+//			if(browserName.equals("chrome")){
+//				System.setProperty("WebDriver.chrome.driver", "/Users/suparna/Desktop/eclipse/workspace/SNOWTest/chromedriver");
+//			}
+//		}
 		
 	}
 	
