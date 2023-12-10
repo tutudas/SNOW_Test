@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Individual Sample Test Suite">
+
+                <listeners>
+
+                                <listener class-name="com.test.testng.TestNGReportCustomizationClass" />
+
+                                <listener class-name="com.test.testng.ListenersDefinitionClass" />
+
+                </listeners>
+
+                <test name="Inviul Tests">
+
+                                <classes>
+
+                                                <class name="Test.MySampleTest" />
+
+                                </classes>
+
+                </test> <!-- Test -->
+
+</suite> <!-- Suite -->

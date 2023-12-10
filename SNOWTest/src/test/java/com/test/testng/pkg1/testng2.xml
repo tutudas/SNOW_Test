@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google Parameterized Test" parallel="false">
+  <test name="Google Test">
+  <parameter name = "url" value="" />
+  <parameter name = "emailId" value="" />
+    <classes>
+      <class name="com.test.testng.pkg1.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

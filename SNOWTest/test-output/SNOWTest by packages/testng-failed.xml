@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SNOWTest by packages]">
+  <test verbose="2" name="com.test.testng.pkg1">
+    <packages>
+      <package name="com.test.testng.pkg1"/>
+    </packages>
+    <classes>
+      <class name="com.test.testng.pkg1.Test2"/>
+      <class name="com.test.testng.pkg1.Base"/>
+      <class name="com.test.testng.pkg1.Test1"/>
+    </classes>
+  </test> <!-- com.test.testng.pkg1 -->
+</suite> <!-- Failed suite [SNOWTest by packages] -->

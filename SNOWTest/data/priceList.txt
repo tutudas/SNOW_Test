@@ -1,0 +1,4 @@
+Apple:10
+Orange:4
+Egg:8
+banana:20

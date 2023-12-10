@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Parameterized Test]">
+  <parameter name="emailId" value=""/>
+  <parameter name="url" value=""/>
+  <test name="Google Test">
+    <parameter name="emailId" value=""/>
+    <parameter name="url" value=""/>
+    <classes>
+      <class name="com.test.testng.pkg1.ParameterTest"/>
+    </classes>
+  </test> <!-- Google Test -->
+  <test name="Google Test(failed)">
+    <parameter name="emailId" value=""/>
+    <parameter name="url" value=""/>
+    <classes>
+      <class name="com.test.testng.pkg1.ParameterTest">
+        <methods>
+          <include name="googleLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.testng.pkg1.ParameterTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+</suite> <!-- Failed suite [Google Parameterized Test] -->

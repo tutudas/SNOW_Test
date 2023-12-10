@@ -1,0 +1,4 @@
+Apple:2
+Orange:6
+Egg:3
+banana:2
